@@ -1,8 +1,8 @@
 //Please put your answer here
 $(".signup-show").click(function(){
-    $("#signup-modal").show()
+    $("#signup-modal").fadeIn("slow")
 })
 
 $("#close-modal").click(function(){
-    $("#signup-modal").hide()
+    $("#signup-modal").fadeOut("slow")
 })
